@@ -20,7 +20,7 @@
 
     // Problem 3
     function concatenateArrays<T>(...arrays: T[][]): T[]{
-        return ([] as T[]).concat(...arrays);
+        return [].concat(...arrays);
     }
      
      
