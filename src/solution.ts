@@ -1,5 +1,5 @@
 {
-    // problem 1 
+ 
     function formatString(input: string, toUpper?: boolean): string{
         if(toUpper === false){
             return input.toLowerCase();
@@ -10,7 +10,6 @@
 
 
 
-    // problem 2
     function filterByRating(items: { title: string; rating: number }[]): { title: string; 
         rating: number }[]{
             return items.filter(item => item.rating >= 4);
@@ -18,14 +17,12 @@
     
 
 
-    // Problem 3
     function concatenateArrays<T>(...arrays: T[][]): T[]{
-        return ([] as T[]).concat(...arrays);
+        return [].concat(...arrays);
     }
      
      
 
-    // problem 4
     class Vehicle{
         private _make : string;
         private year : number;
@@ -54,13 +51,10 @@
         }
     }
 
-    // const myCar = new Car("Toyota", 2020, "Corolla");
-    // console.log(myCar.getInfo());
-    // console.log(myCar.getModel());
 
 
 
-    // problem 5 
+
     function processValue(value: string | number): number {
         if(typeof value === "string"){
             return value.length;
@@ -70,7 +64,7 @@
     }
     
     
-    // problem 6
+
     interface Product {
         name: string;
         price: number;
@@ -93,7 +87,7 @@
 
 
       
-    //   Problem 7 
+
     enum Day {
         Monday,
         Tuesday,
@@ -115,13 +109,7 @@
         }        
       }
 
-    //   console.log(getDayType(Day.Friday)); 
-    //   console.log(getDayType(Day.Thursday));
 
-
-
-
-    // problem-8 
 
     async function squareAsync(n: number): Promise<number>{
         return new Promise((resolve,reject)=>{
