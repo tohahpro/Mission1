@@ -1,5 +1,5 @@
-#What are some differences between interfaces and types in TypeScript?
-Interfaces and types Both help define the shape of objects, but they have some key distinctions.
+# What are some differences between interfaces and types in TypeScript?
+### Interfaces and types Both help define the shape of objects, but they have some key distinctions.
 
 Basic Syntax of Type-
 type User1 = {
@@ -38,7 +38,7 @@ Tuples, primitives, and complex types.
 
 # What is type inference in TypeScript? Why is it helpful?
 
-Type inference is a feature of programming languages that allows the compiler to automatically determine the type of a variable based on its context. This can be helpful for making code more easy to read, as well as for preventing errors.
+### Type inference is a feature of programming languages that allows the compiler to automatically determine the type of a variable based on its context. This can be helpful for making code more easy to read, as well as for preventing errors.
 
 let age: number = 25;
 let name: string = "MD";
